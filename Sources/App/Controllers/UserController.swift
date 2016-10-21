@@ -78,11 +78,8 @@ final class UserController {
             fileManager.createFile(atPath: dirPath, contents: data, attributes: ["name": img.name!, "type": img.type!])
         }
         print(img.type, img.name)
-<<<<<<< HEAD
-        return "http://172.20.10.14/VaporMongoV1/" + dir
-=======
         return dir
->>>>>>> 1387b714e55a41608403452b3b37825657916ca9
+//>>>>>>> 1387b714e55a41608403452b3b37825657916ca9
     }
     
 }
